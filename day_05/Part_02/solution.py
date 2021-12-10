@@ -3,7 +3,6 @@ split_lines = [[[int(i) for i in l.split(',')] for l in f.split(' -> ')] for f i
 coordinates = dict()
 crossed_lines = 0
 
-
 def calc_cords(start_x, end_x, start_y, end_y):
 	global crossed_lines
 	global coordinates
