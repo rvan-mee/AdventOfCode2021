@@ -22,7 +22,3 @@ for count in range(highest_position):
 		least_fuel[0] = current_fuel
 		least_fuel[1] = count
 print(least_fuel)
-	
-		
-
-	
