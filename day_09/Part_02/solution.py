@@ -1,7 +1,6 @@
 height_map_input = open("input.txt").read().splitlines()
 height_map = []
 biggest_basins = [0, 0, 0]
-basin_list = []
 
 def solver(y, x):
 	global height_map
